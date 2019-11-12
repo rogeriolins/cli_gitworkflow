@@ -5,7 +5,7 @@ const servidor = express();
 /* Permite o envio de JSON no corpo do BODY pelo metodo POST */
 servidor.use(express.json());
 
-const usuarios = ['Aline Lins', 'Luana Lins', 'Angela Lins', 'Rogerio Lins'];
+const usuarios = ['Aline Lins', 'Luana Lins', 'Angela Lins', 'Rogerio Lins', 'Gabriel Ruiz'];
 
 /* Middlawares */
 function verificaCodigo(req,res,next) {
